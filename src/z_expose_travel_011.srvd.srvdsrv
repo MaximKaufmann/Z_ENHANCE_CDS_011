@@ -1,0 +1,8 @@
+@EndUserText.label: 'Service exposes Travel Data 001'
+define service Z_EXPOSE_TRAVEL_011 {
+  expose Z_I_TRAVEL_R_011 as Travels;
+  expose /DMO/I_Agency as Agency;
+  expose /DMO/I_Customer as Customer;
+  expose Z_I_BOOKING_011 as Booking;
+  expose /DMO/I_Connection as Connection;
+}
